@@ -29,18 +29,18 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Trucker Tools React Native App',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'Led complete rewrite of React Native app with 370k+ MAUs, achieving 99.98% crash-free rate and reducing app size from 48MB to 28MB.',
+    link: 'https://apps.apple.com/us/app/trucker-tools/id1031251106',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'Walmart Receiving App',
+    description: 'Architected scalable React Native app for Walmart and Sam\'s Club inventory management, saving millions in compliance costs.',
+    link: 'https://corporate.walmart.com/about/technology',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
@@ -49,56 +49,46 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'Trucker Tools / DAT Freight Analytics',
+    title: 'React Native Mobile Engineer - Tech Lead',
+    start: 'Apr 2023',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://truckertools.com',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'Walmart Global Tech',
+    title: 'Software Engineer III - Tech Lead',
+    start: 'Apr 2020',
+    end: 'Apr 2023',
+    link: 'https://walmart.com',
     id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Optimizing React Native App Performance at Scale',
+    description: 'How I reduced app size by 42% and achieved 99.98% crash-free rate with 370k+ MAUs',
+    link: '/blog/optimizing-react-native-performance',
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Building Cost-Effective Mobile Solutions',
+    description: 'Strategies that saved $104k in yearly API costs in just two weeks',
+    link: '/blog/cost-effective-mobile-solutions',
     uid: 'blog-2',
   },
   {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Leading Remote Engineering Teams',
+    description: 'Lessons learned from managing distributed React Native development teams',
+    link: '/blog/leading-remote-engineering-teams',
     uid: 'blog-3',
   },
   {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
+    title: 'From 41s to 21s: App Download Optimization',
+    description: 'Technical deep dive into reducing React Native app bundle size and download times',
+    link: '/blog/app-download-optimization',
     uid: 'blog-4',
   },
 ]
@@ -106,20 +96,12 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/alexkev',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/alexkev',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'alex.kmatheson@gmail.com'
