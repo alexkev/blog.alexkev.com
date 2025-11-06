@@ -43,6 +43,13 @@ export const PROJECTS: Project[] = [
     image: '/six-hour-challenge.png',
     id: 'project2',
   },
+  {
+    name: 'packlite.alexkev.com',
+    description: 'Next.js app for organizing backpacking gear and trips. Using Tailwind, React, Postgres via NeonDB, and Resend. With email link authentication.',
+    link: 'https://packlite.alexkev.com',
+    image: '/packlite.png',
+    id: 'project3',
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
