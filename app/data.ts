@@ -100,6 +100,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/alexkev',
   },
+  {
+    label: 'Resume',
+    link: 'https://job.alexkev.com/Alex_Matheson_Resume.pdf',
+  }
 ]
 
 export const EMAIL = 'alex.kmatheson@gmail.com'
